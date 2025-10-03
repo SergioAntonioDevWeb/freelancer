@@ -12,6 +12,7 @@ html {
 
 body {
     font-size: 16px; /* 1rem = 10px */
+    font-family: "Krub", sans-serif;
 }
 
 .titulo {
@@ -21,4 +22,31 @@ body {
 
 .titulo span {
     font-size: 2rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
 }
